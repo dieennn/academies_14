@@ -1,4 +1,4 @@
-package com.dicoding.intifada.myrecyclerview;
+package com.dicoding.intifada.myrecyclerview.adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,6 +10,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
+import com.dicoding.intifada.myrecyclerview.model.Hero;
+import com.dicoding.intifada.myrecyclerview.R;
 
 import java.util.ArrayList;
 
@@ -17,10 +19,10 @@ public class GridHeroAdapter extends RecyclerView.Adapter<GridHeroAdapter.GridVi
     private final ArrayList<Hero> listHero;
     private OnItemClickCallback onItemClickCallback;
 
-    void setOnItemClickCallback(OnItemClickCallback onItemClickCallback) {
+    public void setOnItemClickCallback(OnItemClickCallback onItemClickCallback) {
         this.onItemClickCallback = onItemClickCallback;
     }
-    GridHeroAdapter(ArrayList<Hero> list) {
+    public GridHeroAdapter(ArrayList<Hero> list) {
         this.listHero = list;
     }
 

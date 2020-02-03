@@ -1,4 +1,4 @@
-package com.dicoding.intifada.myrecyclerview;
+package com.dicoding.intifada.myrecyclerview.adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -13,6 +13,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
+import com.dicoding.intifada.myrecyclerview.model.Hero;
+import com.dicoding.intifada.myrecyclerview.R;
 
 import java.util.ArrayList;
 

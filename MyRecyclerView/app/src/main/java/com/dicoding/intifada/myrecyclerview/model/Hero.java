@@ -1,4 +1,4 @@
-package com.dicoding.intifada.myrecyclerview;
+package com.dicoding.intifada.myrecyclerview.model;
 
 import android.os.Parcel;
 import android.os.Parcelable;
@@ -37,9 +37,11 @@ public class Hero implements Parcelable {
         dest.writeString(this.description);
         dest.writeString(this.photo);
     }
-    Hero() {
+
+    public Hero() {
     }
-    private Hero(Parcel in) {
+
+    public Hero(Parcel in) {
         this.name = in.readString();
         this.description = in.readString();
         this.photo = in.readString();

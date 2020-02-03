@@ -11,6 +11,11 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import com.dicoding.intifada.myrecyclerview.adapter.CardViewHeroAdapter;
+import com.dicoding.intifada.myrecyclerview.adapter.GridHeroAdapter;
+import com.dicoding.intifada.myrecyclerview.adapter.ListHeroAdapter;
+import com.dicoding.intifada.myrecyclerview.model.Hero;
+
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {

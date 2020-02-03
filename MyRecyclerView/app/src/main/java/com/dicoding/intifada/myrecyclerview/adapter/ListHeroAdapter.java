@@ -1,4 +1,4 @@
-package com.dicoding.intifada.myrecyclerview;
+package com.dicoding.intifada.myrecyclerview.adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,6 +11,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
+import com.dicoding.intifada.myrecyclerview.model.Hero;
+import com.dicoding.intifada.myrecyclerview.R;
 
 import java.util.ArrayList;
 
@@ -23,7 +25,7 @@ public class ListHeroAdapter extends RecyclerView.Adapter<ListHeroAdapter.ListVi
         this.onItemClickCallback = onItemClickCallback;
     }
 
-    ListHeroAdapter(ArrayList<Hero> list) {
+    public ListHeroAdapter(ArrayList<Hero> list) {
         this.listHero = list;
     }
 
