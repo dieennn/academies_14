@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btn_choose" type="id" />
+    <item name="rb_50" type="id" />
+    <item name="rb_100" type="id" />
+    <item name="rb_150" type="id" />
+    <item name="rb_200" type="id" />
+    <item name="rg_number" type="id" />
+</resources>
