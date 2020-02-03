@@ -14,24 +14,36 @@ import com.bumptech.glide.request.RequestOptions;
 import java.util.ArrayList;
 
 public class GridHeroAdapter extends RecyclerView.Adapter<GridHeroAdapter.GridViewHolder> {
-    private ArrayList<Hero> listHero;
-    public GridHeroAdapter(ArrayList<Hero> list) {
+    private final ArrayList<Hero> listHero;
+    private OnItemClickCallback onItemClickCallback;
+
+    void setOnItemClickCallback(OnItemClickCallback onItemClickCallback) {
+        this.onItemClickCallback = onItemClickCallback;
+    }
+    GridHeroAdapter(ArrayList<Hero> list) {
         this.listHero = list;
     }
 
     @NonNull
     @Override
-    public GridViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int viewType) {
+    public GridHeroAdapter.GridViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
         View view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.item_grid_hero, viewGroup, false);
         return new GridViewHolder(view);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull GridViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull final GridHeroAdapter.GridViewHolder holder, int position) {
         Glide.with(holder.itemView.getContext())
                 .load(listHero.get(position).getPhoto())
                 .apply(new RequestOptions().override(350, 550))
                 .into(holder.imgPhoto);
+
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onItemClickCallback.onItemClicked(listHero.get(holder.getAdapterPosition()));
+            }
+        });
     }
 
     @Override
@@ -40,11 +52,15 @@ public class GridHeroAdapter extends RecyclerView.Adapter<GridHeroAdapter.GridVi
     }
 
     class GridViewHolder extends RecyclerView.ViewHolder {
-        ImageView imgPhoto;
+        private final ImageView imgPhoto;
 
         GridViewHolder(View itemView) {
             super(itemView);
             imgPhoto = itemView.findViewById(R.id.img_item_photo);
         }
+    }
+
+    public interface OnItemClickCallback {
+        void onItemClicked(Hero data);
     }
 }
