@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/img_photo"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/txt_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="-2dp"
+        android:layout_toEndOf="@id/img_photo"
+        android:text="@string/name_film"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView8"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/img_photo"
+        android:text="Deskripsi" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView7"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/img_photo"
+        android:text="Runtime " />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView6"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/img_photo"
+        android:text="Languange " />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_name"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/img_photo"
+        android:text="Score " />
+
+    <TextView
+        android:id="@+id/vote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_name"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/textView6"
+        android:text="V" />
+
+    <TextView
+        android:id="@+id/lang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView6"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/textView7"
+        android:text="L" />
+
+    <TextView
+        android:id="@+id/runtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView7"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/textView8"
+        android:text="D" />
+
+    <TextView
+        android:id="@+id/runtime2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/runtime"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/textView8"
+        android:text=":" />
+
+    <TextView
+        android:id="@+id/txt_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView9"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/img_photo"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:text="@string/lorem" />
+
+</RelativeLayout>
