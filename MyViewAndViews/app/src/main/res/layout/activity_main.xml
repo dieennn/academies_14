@@ -20,7 +20,7 @@
                 android:adjustViewBounds="true"
                 android:src="@drawable/pixel_google"
                 android:scaleType="fitXY"
-                android:contentDescription="@string/imageGoogle" />
+                android:contentDescription="@string/todo" />
             <TextView
                 style="@style/TextContent.Small.White"
                 android:padding="8dp"
