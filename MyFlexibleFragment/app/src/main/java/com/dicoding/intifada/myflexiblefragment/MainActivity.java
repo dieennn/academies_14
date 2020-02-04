@@ -13,18 +13,17 @@ public class MainActivity<fragment> extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        FragmentManager mFragmentManager = getSupportFragmentManager();
+        HomeFragment mHomeFragment = new HomeFragment();
+        Fragment fragment = mFragmentManager.findFragmentByTag(HomeFragment.class.getSimpleName());
+
+        if (!(fragment instanceof HomeFragment)) {
+            Log.d("MyFlexibleFragment", "Fragment Name :" + HomeFragment.class.getSimpleName());
+            mFragmentManager
+                    .beginTransaction()
+                    .add(R.id.frame_container, mHomeFragment, HomeFragment.class.getSimpleName())
+                    .commit();
+        }
     }
-
-    FragmentManager mFragmentManager = getSupportFragmentManager();
-    HomeFragment mHomeFragment = new HomeFragment();
-    Fragment fragment = mFragmentManager.findFragmentByTag(HomeFragment.class.getSimpleName());
-
-    if (fragment instanceof HomeFragment) {
-        Log.d("MyFlexibleFragment", "Fragment Name :" + HomeFragment.class.getSimpleName());
-        mFragmentManager
-                .beginTransaction()
-                .add(R.id.frame_container, mHomeFragment, HomeFragment.class.getSimpleName())
-                .commit();
-    }
-
 }
