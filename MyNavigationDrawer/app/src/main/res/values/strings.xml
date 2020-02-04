@@ -13,4 +13,15 @@
     <string name="menu_tools">Tools</string>
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
+
+    <string name="dien">Dien</string>
+    <string name="dien_intifada_com">dien@intifada.com</string>
+    <string name="menu_cart">Cart</string>
+    <string name="menu_map">Maps</string>
+    <string name="menu_hotel">Hotel</string>
+    <string name="menu_subway">Subway</string>
+    <string name="map">Maps</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

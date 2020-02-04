@@ -40,4 +40,16 @@
         android:name="com.dicoding.intifada.mynavigationdrawer.ui.send.SendFragment"
         android:label="@string/menu_send"
         tools:layout="@layout/fragment_send" />
+
+    <fragment
+        android:id="@+id/nav_cart"
+        android:name="com.dicoding.intifada.mynavigationdrawer.SubwayActivity"
+        android:label="@string/menu_cart"
+        tools:layout="@layout/fragment_cart" />
+
+    <activity
+        android:id="@+id/nav_subway"
+        android:name="com.dicoding.intifada.mynavigationdrawer.SubwayActivity"
+        android:label="@string/menu_subway"
+        tools:layout="@layout/activity_subway" />
 </navigation>
