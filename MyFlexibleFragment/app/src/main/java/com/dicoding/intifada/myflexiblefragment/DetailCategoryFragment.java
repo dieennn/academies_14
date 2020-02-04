@@ -1,6 +1,7 @@
 package com.dicoding.intifada.myflexiblefragment;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -71,6 +72,8 @@ public class DetailCategoryFragment extends Fragment implements View.OnClickList
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.btn_profile:
+                Intent mIntent = new Intent(getActivity(), ProfileActivity.class);
+                startActivity(mIntent);
                 break;
             case R.id.btn_show_dialog:
                 OptionDialogFragment mOptionDialogFragment = new OptionDialogFragment();
