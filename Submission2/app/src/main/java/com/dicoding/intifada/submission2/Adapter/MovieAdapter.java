@@ -42,7 +42,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.MovieViewAda
                 .load(movie.getPhoto())
                 .into(holder.imgPhotoMovie);
 
-        holder.tvNameMovie.setText(movie.getNameFilm());
+        holder.tvNameMovie.setText(movie.getNameFilm() + " (" + movie.getYearFilm() + ")");
         holder.tvDateMovie.setText(movie.getDateFilm());
 
         holder.tvScoreMovie.setText(movie.getScore());

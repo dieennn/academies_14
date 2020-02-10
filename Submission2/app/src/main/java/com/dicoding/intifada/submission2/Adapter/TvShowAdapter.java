@@ -42,7 +42,7 @@ public class TvShowAdapter extends RecyclerView.Adapter<TvShowAdapter.TvViewAdap
                 .load(tvShow.getPhotoTv())
                 .into(holder.imgPhotoTv);
 
-        holder.tvNameTv.setText(tvShow.getNameTv());
+        holder.tvNameTv.setText(tvShow.getNameTv() + " (" + tvShow.getYearTv() + ")");
         holder.tvDateTv.setText(tvShow.getDateTv());
 
         holder.tvScoreTv.setText(tvShow.getScore());
