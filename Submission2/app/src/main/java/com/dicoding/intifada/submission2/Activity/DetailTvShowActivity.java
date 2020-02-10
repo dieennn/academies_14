@@ -39,7 +39,7 @@ public class DetailTvShowActivity extends AppCompatActivity {
                 .load(moveTv.getPhotoPosterTv())
                 .into(imgPoster);
 
-        String title = moveTv.getNameTv();
+        String title = moveTv.getNameTv() + " (" + moveTv.getYearTv() + ")";
         txtTitle.setText(title);
         String year = moveTv.getYearTv();
         txtYear.setText(year);

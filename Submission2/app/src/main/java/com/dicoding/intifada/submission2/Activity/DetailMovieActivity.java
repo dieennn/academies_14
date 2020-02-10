@@ -39,7 +39,7 @@ public class DetailMovieActivity extends AppCompatActivity {
                 .load(moveMovie.getPhotoPoster())
                 .into(imgPoster);
 
-        String title = moveMovie.getNameFilm();
+        String title = moveMovie.getNameFilm() + " (" + moveMovie.getYearFilm() + ")";
         txtTitle.setText(title);
         String year = moveMovie.getYearFilm();
         txtYear.setText(year);

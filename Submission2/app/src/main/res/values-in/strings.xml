@@ -3,13 +3,12 @@
     <string name="app_name">Submission2</string>
 
     <string name="change_language_settings">Ganti Bahasa</string>
-    <string name="tab_text_1">Movie</string>
-    <string name="tab_text_2">Tv Show </string>
-    <string name="tab_text_3">Pengaturan</string>
+    <string name="tab_text_1">Film</string>
+    <string name="tab_text_2">Pertunjukan TV</string>
     <string name="lorem">lorem ipsum dolor sit amet</string>
 
     <string name="TextOverview">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
-    <string name="overview">Overview</string>
+    <string name="overview">Deskripsi</string>
     <string name="title">Aquaman</string>
     <string name="release">2018</string>
     <string name="poster">poster</string>
@@ -18,7 +17,7 @@
     <string name="score">Nilai</string>
     <string name="languange">Bahasa</string>
     <string name="runtime">Runtime</string>
-    <string name="deskripsi">Deskripti</string>
+    <string name="deskripsi">Deskripsi</string>
     <string name="tv_6">V</string>
     <string name="tv_7">L</string>
     <string name="tv_8">D</string>
