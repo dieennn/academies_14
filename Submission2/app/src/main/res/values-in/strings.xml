@@ -1,9 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Submission2</string>
 
-    <string name="change_language_settings">Change Language</string>
+    <string name="change_language_settings">Ganti Bahasa</string>
     <string name="tab_text_1">Movie</string>
     <string name="tab_text_2">Tv Show </string>
+    <string name="tab_text_3">Pengaturan</string>
     <string name="lorem">lorem ipsum dolor sit amet</string>
 
     <string name="TextOverview">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
@@ -13,10 +15,10 @@
     <string name="poster">poster</string>
     <string name="avengers_infinity_war">Avengers: Infinity War</string>
     <string name="april_25_2018">April 25, 2018</string>
-    <string name="score">Score</string>
-    <string name="languange">Language</string>
+    <string name="score">Nilai</string>
+    <string name="languange">Bahasa</string>
     <string name="runtime">Runtime</string>
-    <string name="deskripsi">Description</string>
+    <string name="deskripsi">Deskripti</string>
     <string name="tv_6">V</string>
     <string name="tv_7">L</string>
     <string name="tv_8">D</string>
@@ -36,16 +38,16 @@
     </string-array>
 
     <string-array name="data_movie_overview">
-        <item>Once home to the most advanced civilization on Earth, Atlantis is now an underwater kingdom ruled by the power-hungry King Orm. With a vast army at his disposal, Orm plans to conquer the remaining oceanic people and then the surface world. Standing in his way is Arthur Curry, Orm\'s half-human, half-Atlantean brother and true heir to the throne.</item>
-        <item>As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.</item>
-        <item>Five years after an ominous unseen presence drives most of society to suicide, a survivor and her two children make a desperate bid to reach safety.</item>
-        <item>On the run in the year 1987, Bumblebee finds refuge in a junkyard in a small Californian beach town. Charlie, on the cusp of turning 18 and trying to find her place in the world, discovers Bumblebee, battle-scarred and broken. When Charlie revives him, she quickly learns this is no ordinary yellow VW bug.</item>
-        <item>Wisecracking mercenary Deadpool battles the evil and powerful Cable and other bad guys to save a boy\'s life.</item>
-        <item>As Hiccup fulfills his dream of creating a peaceful dragon utopia, Toothless’ discovery of an untamed, elusive mate draws the Night Fury away. When danger mounts at home and Hiccup’s reign as village chief is tested, both dragon and rider must make impossible decisions to save their kind.</item>
-        <item>Many thousands of years in the future, Earth’s cities roam the globe on huge wheels, devouring each other in a struggle for ever diminishing resources. On one of these massive traction cities, the old London, Tom Natsworthy has an unexpected encounter with a mysterious young woman from the wastelands who will change the course of his life forever.</item>
-        <item>After three years, the business of Muslihat (Epi Kusnandar), who has retired as a thug, has a problem. Sales decline. Muslihat also faces new problems when Safira (Safira Maharani), her only daughter, grows up in adolescence and begins to be visited by boys. A bigger problem: frictions between his former subordinates.</item>
-        <item>Miles Morales is juggling his life between being a high school student and being a spider-man. When Wilson "Kingpin" Fisk uses a super collider, others from across the Spider-Verse are transported to this dimension.</item>
-        <item>Investigative journalist Eddie Brock attempts a comeback following a scandal, but accidentally becomes the host of Venom, a violent, super powerful alien symbiote. Soon, he must rely on his newfound powers to protect the world from a shadowy organization looking for a symbiote of their own.</item>
+        <item>Dulunya merupakan rumah bagi peradaban paling maju di Bumi, Atlantis sekarang merupakan kerajaan bawah laut yang diperintah oleh Raja Orm yang haus kekuasaan. Dengan pasukan yang sangat besar, Orm berencana untuk menaklukkan orang-orang samudera yang tersisa dan kemudian ke permukaan. Yang menghalangi jalannya adalah Arthur Curry, saudara setengah manusia, setengah saudara lelaki Atlantis, dan pewaris sejati takhta.</item>
+        <item>Ketika Avengers dan sekutu mereka terus melindungi dunia dari ancaman yang terlalu besar untuk ditangani oleh satu pahlawan, bahaya baru telah muncul dari bayang-bayang kosmik: Thanos. Seorang lalim penghinaan intergalaksi, tujuannya adalah untuk mengumpulkan semua enam Batu Infinity, artefak kekuatan tak terbayangkan, dan menggunakannya untuk menimbulkan keinginannya yang terpelintir pada semua kenyataan. Segala yang Avengers telah perjuangkan telah mengarah ke saat ini - nasib Bumi dan keberadaannya sendiri tidak pernah lebih pasti.</item>
+        <item>Lima tahun setelah kehadiran tak terlihat yang tak menyenangkan membuat sebagian besar masyarakat bunuh diri, seorang yang selamat dan dua anaknya melakukan upaya putus asa untuk mencapai keselamatan.</item>
+        <item>Dalam pelarian pada tahun 1987, Bumblebee menemukan perlindungan di tempat barang rongsokan di kota pantai kecil California. Charlie, di puncak usia 18 dan berusaha menemukan tempatnya di dunia, menemukan Bumblebee, bekas luka pertempuran dan patah. Ketika Charlie menghidupkannya, dia dengan cepat mengetahui bahwa ini bukan bug VW kuning biasa.</item>
+        <item>Deadpool tentara bayaran penyihir bertempur melawan Cable jahat dan kuat dan orang jahat lainnya untuk menyelamatkan hidup anak laki-laki.</item>
+        <item>Ketika Hiccup memenuhi mimpinya untuk menciptakan utopia naga yang damai, penemuan Toothless dari pasangan yang tak teruji dan sukar ditangkap membuat Night Fury menjauh. Ketika bahaya meningkat di rumah dan pemerintahan Hiccup sebagai kepala desa diuji, baik naga dan pengendara harus membuat keputusan yang mustahil untuk menyelamatkan jenis mereka.</item>
+        <item>Beribu-ribu tahun di masa depan, kota-kota di bumi menjelajah dunia dengan roda besar, saling melahap dalam perjuangan untuk sumber daya yang semakin berkurang. Di salah satu kota traksi besar ini, London tua, Tom Natsworthy mengalami pertemuan tak terduga dengan seorang wanita muda misterius dari daerah terlantar yang akan mengubah jalan hidupnya selamanya.</item>
+        <item>Setelah tiga tahun, bisnis Muslihat (Epi Kusnandar), yang telah pensiun sebagai preman, memiliki masalah. Penurunan penjualan. Muslihat juga menghadapi masalah baru ketika Safira (Safira Maharani), satu-satunya anak perempuannya, tumbuh dewasa dan mulai dikunjungi oleh anak laki-laki. Masalah yang lebih besar: gesekan antara mantan bawahannya.</item>
+        <item>Miles Morales menyulap hidupnya antara menjadi siswa sekolah menengah dan menjadi manusia laba-laba. Ketika Wilson "Kingpin" Fisk menggunakan collider super, yang lain dari seberang Spider-Verse diangkut ke dimensi ini.</item>
+        <item>Jurnalis investigasi Eddie Brock mencoba untuk kembali setelah skandal, tetapi secara tidak sengaja menjadi tuan rumah Venom, seorang simbiot alien yang sangat kuat dan sakti. Segera, ia harus mengandalkan kekuatan barunya untuk melindungi dunia dari organisasi bayangan yang mencari simbiosis mereka sendiri.</item>
     </string-array>
 
     <string-array name="data_movie_year">
@@ -180,16 +182,16 @@
     </string-array>
 
     <string-array name="data_tv_overview">
-        <item>The true story of one of the worst man-made catastrophes in history: the catastrophic nuclear accident at Chernobyl. A tale of the brave men and women who sacrificed to save Europe from unimaginable disaster.</item>
-        <item>After the fall of the Galactic Empire, lawlessness has spread throughout the galaxy. A lone gunfighter makes his way through the outer reaches, earning his keep as a bounty hunter.</item>
-        <item>Geralt of Rivia, a mutated monster-hunter for hire, journeys toward his destiny in a turbulent world where people often prove more wicked than beasts.</item>
-        <item>A contemporary and culturally resonant drama about a young programmer, Elliot, who suffers from a debilitating anti-social disorder and decides that he can only connect to people by hacking them. He wields his skills as a weapon to protect the people that he cares about. Elliot will find himself in the intersection between a cybersecurity firm he works for and the underworld organizations that are recruiting him to bring down corporate America.</item>
-        <item>Three siblings who move into their ancestral estate after their father\'s gruesome murder discover their new home\'s magical keys, which must be used in their stand against an evil creature who wants the keys and their powers.</item>
-        <item>Seven noble families fight for control of the mythical land of Westeros. Friction between the houses leads to full-scale war. All while a very ancient evil awakens in the farthest north. Amidst the war, a neglected military order of misfits, the Night\'s Watch, is all that stands between the realms of men and icy horrors beyond.</item>
-        <item>When Walter White, a New Mexico chemistry teacher, is diagnosed with Stage III cancer and given a prognosis of only two years left to live. He becomes filled with a sense of fearlessness and an unrelenting desire to secure his family\'s financial future at any cost as he enters the dangerous world of drugs and crime.</item>
-        <item>Set twenty years after the events of Star Trek Nemesis, we follow the now-retired Admiral Picard into the next chapter of his life.</item>
-        <item>When an insidious supernatural force edges its way into a seemingly straightforward investigation into the gruesome murder of a young boy, it leads a seasoned cop and an unorthodox investigator to question everything they believe in.</item>
-        <item>Edward and Alphonse Elric\'s reckless disregard for alchemy\'s fun­damental laws ripped half of Ed\'s limbs from his body and left Al\'s soul clinging to a cold suit of armor. To restore what was lost, the brothers scour a war-torn land for the Philosopher\'s Sto­ne, a fabled relic which grants the ability to perform alchemy in impossible ways. The Elrics are not alone in their search; the corrupt State Military is also eager to harness the artifact\'s power. So too are the strange Homunculi and their shadowy creator. The mythical gem lures exotic alchemists from distant kingdoms, scarring some deeply enough to inspire murder. As the Elrics find their course altered by these enemies and allies, their purpose remains unchanged – and their bond unbreakable.</item>
+        <item>Kisah nyata dari salah satu bencana buatan manusia terburuk dalam sejarah: kecelakaan nuklir bencana di Chernobyl. Sebuah kisah tentang pria dan wanita pemberani yang berkorban untuk menyelamatkan Eropa dari bencana yang tak terbayangkan.</item>
+        <item>Setelah jatuhnya Kekaisaran Galactic, pelanggaran hukum telah menyebar ke seluruh galaksi. Seorang pejuang tembak-menembak sendirian melakukan perjalanan melalui terluar, mendapatkan jasanya sebagai pemburu hadiah.</item>
+        <item>Geralt of Rivia, pemburu monster bermutasi untuk disewa, melakukan perjalanan menuju takdirnya di dunia yang bergejolak di mana orang sering terbukti lebih jahat daripada binatang buas.</item>
+        <item>Drama kontemporer dan resonan budaya tentang seorang programmer muda, Elliot, yang menderita gangguan anti-sosial yang melemahkan dan memutuskan bahwa ia hanya dapat terhubung dengan orang-orang dengan meretasnya. Dia menggunakan keterampilannya sebagai senjata untuk melindungi orang-orang yang dia sayangi. Elliot akan menemukan dirinya di persimpangan antara sebuah perusahaan cybersecurity tempat dia bekerja dan organisasi-organisasi dunia bawah yang merekrutnya untuk menjatuhkan perusahaan Amerika.</item>
+        <item>Tiga saudara kandung yang pindah ke tanah leluhur mereka setelah pembunuhan mengerikan ayah mereka menemukan kunci magis rumah baru mereka, yang harus digunakan dalam pendirian mereka melawan makhluk jahat yang menginginkan kunci dan kekuatan mereka.</item>
+        <item>Tujuh keluarga bangsawan berjuang untuk menguasai tanah mitos Westeros. Gesekan antara rumah-rumah mengarah ke perang skala penuh. Semua sementara kejahatan yang sangat kuno terbangun di utara terjauh. Di tengah-tengah perang, perintah militer yang diabaikan, Night\'s Watch, adalah yang berdiri di antara alam manusia dan kengerian es di luar.</item>
+        <item>Ketika Walter White, seorang guru kimia New Mexico, didiagnosis menderita kanker stadium III dan diberi prognosis hanya dua tahun lagi untuk hidup. Dia menjadi dipenuhi dengan rasa takut dan keinginan yang tak henti-hentinya untuk mengamankan masa depan keuangan keluarganya dengan biaya berapa pun saat dia memasuki dunia narkoba dan kejahatan yang berbahaya.</item>
+        <item>Ditetapkan dua puluh tahun setelah peristiwa Star Trek Nemesis, kita mengikuti Laksamana Picard yang sekarang sudah pensiun ke bab selanjutnya dalam hidupnya.</item>
+        <item>Ketika suatu kekuatan gaib yang berbahaya menyapu jalannya ke penyelidikan yang tampaknya langsung ke dalam pembunuhan mengerikan seorang anak laki-laki, ia memimpin seorang polisi berpengalaman dan seorang penyelidik yang tidak ortodoks untuk mempertanyakan segala sesuatu yang mereka yakini.</item>
+        <item>Edward dan Alphonse Elric dengan sembrono mengabaikan hukum dasar alkimia merobek setengah dari anggota badan Ed dari tubuhnya dan meninggalkan jiwa Al yang menempel pada baju zirah dingin. Untuk memulihkan apa yang hilang, saudara-saudara menjelajahi tanah yang dilanda perang untuk Batu Bertuah, peninggalan dongeng yang memberikan kemampuan untuk melakukan alkimia dengan cara yang mustahil. \n\nElrics tidak sendirian dalam pencarian mereka; Militer Negara yang korup juga ingin memanfaatkan kekuatan artefak. Begitu juga Homunculi yang aneh dan pencipta bayangan mereka. Permata mistis memikat para alkemis eksotis dari kerajaan-kerajaan yang jauh, menggoreskan beberapa cukup dalam untuk menginspirasi pembunuhan. Ketika Elrics menemukan jalannya diubah oleh musuh dan sekutu ini, tujuan mereka tetap tidak berubah - dan ikatan mereka tidak bisa dipecahkan.</item>
     </string-array>
 
     <string-array name="tv_show_score">
