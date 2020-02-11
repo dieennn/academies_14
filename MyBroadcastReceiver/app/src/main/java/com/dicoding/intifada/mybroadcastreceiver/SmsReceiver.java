@@ -1,12 +1,16 @@
 package com.dicoding.intifada.mybroadcastreceiver;
 
+import android.app.Activity;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Bundle;
 import android.telephony.SmsMessage;
 import android.util.Log;
+
+import androidx.core.app.ActivityCompat;
 
 public class SmsReceiver extends BroadcastReceiver {
 
@@ -51,6 +55,14 @@ public class SmsReceiver extends BroadcastReceiver {
             currentSMS = SmsMessage.createFromPdu((byte[]) aObject);
         }
         return currentSMS;
+    }
+
+    static class PermissionManager {
+        static void check(Activity activity, String permission, int requestCode) {
+            if (ActivityCompat.checkSelfPermission(activity, permission) != PackageManager.PERMISSION_GRANTED) {
+                ActivityCompat.requestPermissions(activity, new String[]{permission}, requestCode);
+            }
+        }
     }
 
 }
