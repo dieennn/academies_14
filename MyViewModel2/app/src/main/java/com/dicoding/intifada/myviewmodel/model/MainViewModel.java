@@ -19,7 +19,7 @@ import cz.msebera.android.httpclient.entity.mime.Header;
 
 public class MainViewModel extends ViewModel {
     //https://openweathermap.org/api
-    private static final String API_KEY = "c5bb4c92963eb75359bd5b88ee6b7825";
+    private static final String API_KEY = "hehe";
     private MutableLiveData<ArrayList<WeatherItems>> listWeathers = new MutableLiveData<>();
 
 
