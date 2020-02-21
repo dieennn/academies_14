@@ -60,6 +60,24 @@ public class NoteHelper {
                 _ID + " ASC");
     }
 
+
+
+    /**
+     * Ambil data dari note berdasarakan parameter id
+     *
+     * @param id id note yang dicari
+     * @return cursor hasil query
+     */
+    public Cursor queryById(String id) {
+        return database.query(DATABASE_TABLE, null
+                , _ID + " = ?"
+                , new String[]{id}
+                , null
+                , null
+                , null
+                , null);
+    }
+
     /**
      * Simpan data ke dalam database
      *
