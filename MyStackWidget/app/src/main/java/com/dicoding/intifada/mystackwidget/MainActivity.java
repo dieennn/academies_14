@@ -1,6 +1,7 @@
 package com.dicoding.intifada.mystackwidget;
 
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
