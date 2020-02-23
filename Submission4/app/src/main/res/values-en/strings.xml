@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Submission4</string>
+    <string name="movie_title">Title</string>
+    <string name="movie_desc">Description</string>
+    <string name="tag_movies">Movies</string>
+    <string name="tag_tv_shows">TV Shows</string>
+    <string name="change_language_settings">Change language</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Catalogue</string>
+    <string name="nav_header_subtitle">Movie and TV Show</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Change Language</string>
+    <string name="favorite">Favorite</string>
+    <string name="favorite_movie">Favorite Movie</string>
+    <string name="favorite_tv_show">Favorite TV Show</string>
+
+    <string name="overview">Overview</string>
+    <string name="release_date">Release date</string>
+    <string name="rating">Rating</string>
+
+    <string name="backdropimage">imagebackdrop</string>
+    <string name="rate">rate</string>
+    <string name="date">date</string>
+    <string name="posterimage">posterimage</string>
+
+    <string name="dialog_message_delete">Are you sure you want to delete this item?</string>
+    <string name="dialog_title_delete">Delete item</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="item_deleted">Item deleted</string>
+    <string name="description">Description</string>
+    <string name="added_to_favorite">added to favorite</string>
+    <string name="no_data">No data yet</string>
+</resources>
