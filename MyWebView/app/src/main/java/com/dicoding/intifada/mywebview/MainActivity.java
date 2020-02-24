@@ -1,7 +1,12 @@
 package com.dicoding.intifada.mywebview;
 
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
+import android.webkit.WebChromeClient;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -9,5 +14,27 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        WebView myWebView = findViewById(R.id.webView);
+
+        myWebView.getSettings().setJavaScriptEnabled(true);
+
+        myWebView.setWebViewClient(new WebViewClient() {
+            @Override
+            public void onPageFinished(WebView view, String url) {
+                view.loadUrl("javascript:alert('Web berhasil dimuat')");
+            }
+        });
+
+        myWebView.setWebChromeClient(new WebChromeClient() {
+            @Override
+            public boolean onJsAlert(WebView view, String url, String message, final android.webkit.JsResult result) {
+                Toast.makeText(MainActivity.this, message, Toast.LENGTH_LONG).show();
+                result.confirm();
+                return true;
+            }
+        });
+
+        myWebView.loadUrl("https://dien16.github.io");
     }
 }
