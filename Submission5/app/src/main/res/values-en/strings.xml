@@ -1,15 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Submission5</string>
-    <string name="ubah_bahasa">Ubah Bahasa</string>
+    <string name="ubah_bahasa">Change Language</string>
     <string name="tab_movies">Movies</string>
-    <string name="tab_tvshow">Tv Show</string>
+    <string name="tab_tvshow">TV Show</string>
     <string name="tab_favorite">Favorite</string>
     <string name="tab_favorite_movie">Movies</string>
     <string name="tab_favorite_tvshow">TV Show</string>
     <string name="bar_detail_film">Detail Film</string>
     <string name="bar_search_film">Search Movies/TV Show</string>
-    <string name="deskripsi_detail">Description</string>
-    <string name="kamu_pilih">Kamu memilih :</string>
+    <string name="deskripsi_detail">Overview</string>
+    <string name="kamu_pilih">You Choose :</string>
     <string name="language">en-US</string>
     <string name="poster_film">Poster Film</string>
     <string name="favorite_delete">Remove Favorite</string>
@@ -18,7 +19,7 @@
     <string name="favorite_failed">Failed</string>
     <string name="movies_notFound">Movies not found</string>
     <string name="tvshow_notFound">TV Show not found</string>
-    <string name="search_mvtv">Search Movie/TV Show</string>
+    <string name="search_mvtv">Searching</string>
     <string name="exit">Exit</string>
     <string name="about">About</string>
     <string name="search_movies">Search Movies</string>
@@ -32,13 +33,13 @@
     <string name="notif_swtch_daily_off">Daily notifications are turned OFF!</string>
     <string name="notif_swtch_release_on">Release notifications are turned ON!</string>
     <string name="notif_swtch_release_off">Release notifications are turned OFF!</string>
-    <string name="appwidget_text">Film Favorite</string>
+    <string name="appwidget_text">Favorite Movies</string>
     <string name="empty_text">NO DATA</string>
-    <string name="msg_questionExit">Keluar dari aplikasi?</string>
-    <string name="msg_questionYes">Klik Ya untuk keluar!</string>
+    <string name="msg_questionExit">Exit an application?</string>
+    <string name="msg_questionYes">Clik Yes for exit!</string>
     <string name="msg_yes">Yes</string>
     <string name="msg_no">No</string>
-    <string name="msgTap2x">Tap sekali lagi untuk keluar</string>
+    <string name="msgTap2x">Double tap to exit</string>
 
     <!-- About/Privacy -->
     <string name="cp2019">Copyright - 2020</string>
@@ -81,8 +82,4 @@
     <!-- Ad -->
     <string name="ad_banner">ca-app-pub-5712876795951393~8708010631</string>
     <string name="ad_intersial">ca-app-pub-5712876795951393~8708010631</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="buttonss">Button</string>
-    <string name="buttonssss">Button2</string>
 </resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/intentSeacrh"
+        android:title="@string/search_mvtv"
+        android:icon="@drawable/ic_search_24dp"
+        app:showAsAction="collapseActionView|ifRoom" />
+
+    <item
+        android:id="@+id/notifications"
+        android:title="@string/notif_settings"
+        android:icon="@drawable/ic_notifications_24dp"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/change_language"
+        android:title="@string/ubah_bahasa"
+        android:icon="@drawable/ic_language_24dp"
+        app:showAsAction="ifRoom" />
+
+</menu>
