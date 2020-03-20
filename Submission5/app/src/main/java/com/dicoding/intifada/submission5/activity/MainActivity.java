@@ -2,83 +2,64 @@ package com.dicoding.intifada.submission5.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Handler;
 import android.provider.Settings;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.viewpager.widget.ViewPager;
+import androidx.appcompat.widget.Toolbar;
+import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.navigation.NavController;
+import androidx.navigation.Navigation;
+import androidx.navigation.ui.AppBarConfiguration;
+import androidx.navigation.ui.NavigationUI;
 
 import com.dicoding.intifada.submission5.R;
-import com.dicoding.intifada.submission5.pager.PagerAdapter;
-import com.google.android.material.tabs.TabLayout;
-
-import java.util.Objects;
+import com.google.android.material.navigation.NavigationView;
 
 public class MainActivity extends AppCompatActivity {
+
+    private AppBarConfiguration mAppBarConfiguration;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        PagerAdapter sectionsPagerAdapter = new PagerAdapter(this, getSupportFragmentManager());
-        ViewPager viewPager = findViewById(R.id.view_pager_films);
-        viewPager.setAdapter(sectionsPagerAdapter);
-        TabLayout tabs = findViewById(R.id.tab_films);
-        tabs.setupWithViewPager(viewPager);
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
 
-        Objects.requireNonNull(getSupportActionBar()).setElevation(0);
-    }
-
-    public void showInterstitialSearch() {
-        Intent search = new Intent(MainActivity.this, SearchActivity.class);
-        startActivity(search);
-    }
-
-    public void showInterstitialNotif() {
-        Intent notif = new Intent(MainActivity.this, NotifActivity.class);
-        startActivity(notif);
+        DrawerLayout drawer = findViewById(R.id.drawer_layout);
+        NavigationView navigationView = findViewById(R.id.nav_view);
+        mAppBarConfiguration = new AppBarConfiguration.Builder(
+                R.id.moviesFragment, R.id.tvshowFragment)
+                .setDrawerLayout(drawer)
+                .build();
+        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
+        NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
+        NavigationUI.setupWithNavController(navigationView, navController);
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return super.onCreateOptionsMenu(menu);
+        getMenuInflater().inflate(R.menu.main, menu);
+        return true;
     }
 
     @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        if (item.getItemId() == R.id.change_language) {
-            Intent lang = new Intent(Settings.ACTION_LOCALE_SETTINGS);
-            startActivity(lang);
-        } else if (item.getItemId() == R.id.intentSeacrh) {
-            showInterstitialSearch();
-        } else if (item.getItemId() == R.id.notifications) {
-            showInterstitialNotif();
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+
+        if(item.getItemId() == R.id.action_settings){
+            startActivity(new Intent(Settings.ACTION_LOCALE_SETTINGS));
         }
         return super.onOptionsItemSelected(item);
     }
 
-    public boolean doubleTapParam = false;
     @Override
-    public void onBackPressed() {
-        if (doubleTapParam) {
-            super.onBackPressed();
-            return;
-        }
-
-        this.doubleTapParam = true;
-        Toast.makeText(this, getString(R.string.msgTap2x), Toast.LENGTH_SHORT).show();
-
-        new Handler().postDelayed(new Runnable() {
-
-            @Override
-            public void run() {
-                doubleTapParam = false;
-            }
-        }, 2000);
+    public boolean onSupportNavigateUp() {
+        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
+        return NavigationUI.navigateUp(navController, mAppBarConfiguration)
+                || super.onSupportNavigateUp();
     }
 }

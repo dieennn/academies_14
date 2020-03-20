@@ -3,26 +3,18 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorOrangedark</item>
-        <item name="colorPrimaryDark">@color/colorOrange</item>
-        <item name="colorAccent">@color/colorBlue</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="swtchNotif" parent="Theme.AppCompat.Light">
-        <item name="colorControlActivated">@color/colorAccent</item>
-        <item name="colorSwitchThumbNormal">@android:color/darker_gray</item>
-        <item name="android:colorForeground">@color/colorPrimary</item>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="SplashScreenStyle" parent="Theme.AppCompat.NoActionBar">
-        <item name="android:windowBackground">@drawable/splashlogo</item>
-    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
-    <style name="SplassScreenCustom" parent="Theme.AppCompat.NoActionBar"/>
-
-    <style name="buttonstyle3" parent="Theme.AppCompat.Light">
-        <item name="colorControlHighlight">@color/colorBlue</item>
-        <item name="colorButtonNormal">@color/colorBluelight</item>
-    </style>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 </resources>
