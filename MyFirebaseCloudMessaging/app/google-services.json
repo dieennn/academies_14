@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "86744729134",
+    "firebase_url": "https://myfirebasecloudmessaging-1f5a8.firebaseio.com",
+    "project_id": "myfirebasecloudmessaging-1f5a8",
+    "storage_bucket": "myfirebasecloudmessaging-1f5a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:86744729134:android:926836e1f353dd643281bf",
+        "android_client_info": {
+          "package_name": "com.dicoding.intifada.myfirebasecloudmessaging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "86744729134-ramca23or9tm3emreueo8e9m4v1imqsv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dicoding.intifada.myfirebasecloudmessaging",
+            "certificate_hash": "48efe86990152b7d5920e2ba2fdcae629fd996e3"
+          }
+        },
+        {
+          "client_id": "86744729134-3jdj4d98l1506vc9ken22l2gqo5ruu2a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYyH9kno7ywUW7FbpGw0XIXBi18pdEu8A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "86744729134-3jdj4d98l1506vc9ken22l2gqo5ruu2a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
