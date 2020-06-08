@@ -1,0 +1,3 @@
+rootProject.name='sm5'
+include ':app'
+include ':consumerapp'
