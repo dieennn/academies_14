@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about">About</string>
+    <string name="ad_banner">ca-app-pub-5712876795951393~8708010631</string>
+    <string name="ad_intersial">ca-app-pub-5712876795951393~8708010631</string>
+    <string name="app_name">Submission5</string>
+    <string name="appwidget_text">Favorite Movies</string>
+    <string name="bar_detail_film">Detail Film</string>
+    <string name="bar_search_film">Search Movies/TV Show</string>
+    <string name="deskripsi_detail">Overview</string>
+    <string name="empty_text">NO DATA</string>
+    <string name="exit">Exit</string>
+    <string name="favorite_add">Add Favorite</string>
+    <string name="favorite_delete">Remove Favorite</string>
+    <string name="favorite_failed">Failed</string>
+    <string name="favorite_success">Success</string>
+    <string name="kamu_pilih">You Choose :</string>
+    <string name="language">en-US</string>
+    <string name="message_daily_reminder">See Movies and TV Shows, lets check now!</string>
+    <string name="message_release_reminder">Today is the release of a new movies, lets check now!</string>
+    <string name="movies_notFound">Movies not found</string>
+    <string name="msgTap2x">Double tap to exit</string>
+    <string name="msg_no">No</string>
+    <string name="msg_questionExit">Exit an application?</string>
+    <string name="msg_questionYes">Clik Yes for exit!</string>
+    <string name="msg_yes">Yes</string>
+    <string name="notif_settings">Notifications</string>
+    <string name="notif_swtch_daily_off">Daily notifications are turned OFF!</string>
+    <string name="notif_swtch_daily_on">Daily notifications are turned ON!</string>
+    <string name="notif_swtch_release_off">Release notifications are turned OFF!</string>
+    <string name="notif_swtch_release_on">Release notifications are turned ON!</string>
+    <string name="poster_film">Poster Film</string>
+    <string name="search_movies">Search Movies</string>
+    <string name="search_mvtv">Searching</string>
+    <string name="search_tvshow">Search TV Show</string>
+    <string name="sw_daily">Daily Reminder</string>
+    <string name="sw_release">Release Today</string>
+    <string name="tab_favorite">Favorite</string>
+    <string name="tab_favorite_movie">Movies</string>
+    <string name="tab_favorite_tvshow">TV Show</string>
+    <string name="tab_movies">Movies</string>
+    <string name="tab_tvshow">TV Show</string>
+    <string name="tvshow_notFound">TV Show not found</string>
+    <string name="ubah_bahasa">Change Language</string>
+</resources>

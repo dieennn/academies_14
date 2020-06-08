@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.RemoteViews;
 import android.widget.RemoteViewsService;
 
@@ -60,6 +61,7 @@ public class StackRemoteViewsFactory implements RemoteViewsService.RemoteViewsFa
 
         Bitmap bitmap = null;
         try {
+            Log.d("Banner", item.getPoster());
             bitmap = Glide.with(mContext)
                     .asBitmap()
                     .load(item.getPoster())

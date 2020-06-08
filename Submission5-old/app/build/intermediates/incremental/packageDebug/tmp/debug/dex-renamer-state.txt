@@ -1,0 +1,7 @@
+#Fri May 01 13:22:47 ICT 2020
+base.0=C\:\\Users\\dien_\\Documents\\AndroidStudio\\academies_14\\Submission5-old\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=C\:\\Users\\dien_\\Documents\\AndroidStudio\\academies_14\\Submission5-old\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex

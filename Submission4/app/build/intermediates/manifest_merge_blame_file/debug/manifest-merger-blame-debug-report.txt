@@ -1,0 +1,78 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.dicoding.intifada.submission5"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\dien_\Documents\AndroidStudio\academies_14\Submission4\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\dien_\Documents\AndroidStudio\academies_14\Submission4\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\dien_\Documents\AndroidStudio\academies_14\Submission4\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\dien_\Documents\AndroidStudio\academies_14\Submission4\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <permission android:name="com.dicoding.intifada.submission4.READ_DATABASE" />
+13-->C:\Users\dien_\Documents\AndroidStudio\academies_14\Submission4\app\src\main\AndroidManifest.xml:7:5-82
+13-->C:\Users\dien_\Documents\AndroidStudio\academies_14\Submission4\app\src\main\AndroidManifest.xml:7:17-79
+14    <permission android:name="com.dicoding.intifada.submission4.WRITE_DATABASE" />
+14-->C:\Users\dien_\Documents\AndroidStudio\academies_14\Submission4\app\src\main\AndroidManifest.xml:8:5-83
+14-->C:\Users\dien_\Documents\AndroidStudio\academies_14\Submission4\app\src\main\AndroidManifest.xml:8:17-80
+15
+16    <application
+16-->C:\Users\dien_\Documents\AndroidStudio\academies_14\Submission4\app\src\main\AndroidManifest.xml:10:5-37:19
+17        android:allowBackup="true"
+17-->C:\Users\dien_\Documents\AndroidStudio\academies_14\Submission4\app\src\main\AndroidManifest.xml:11:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.1.0] C:\Users\dien_\.gradle\caches\transforms-2\files-2.1\c527b78844be871c44103f6f45a963fb\core-1.1.0\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->C:\Users\dien_\Documents\AndroidStudio\academies_14\Submission4\app\src\main\AndroidManifest.xml:12:9-43
+21        android:label="@string/app_name"
+21-->C:\Users\dien_\Documents\AndroidStudio\academies_14\Submission4\app\src\main\AndroidManifest.xml:13:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->C:\Users\dien_\Documents\AndroidStudio\academies_14\Submission4\app\src\main\AndroidManifest.xml:14:9-54
+23        android:supportsRtl="true"
+23-->C:\Users\dien_\Documents\AndroidStudio\academies_14\Submission4\app\src\main\AndroidManifest.xml:15:9-35
+24        android:testOnly="true"
+25        android:theme="@style/AppTheme"
+25-->C:\Users\dien_\Documents\AndroidStudio\academies_14\Submission4\app\src\main\AndroidManifest.xml:16:9-40
+26        android:usesCleartextTraffic="true" >
+26-->C:\Users\dien_\Documents\AndroidStudio\academies_14\Submission4\app\src\main\AndroidManifest.xml:17:9-44
+27        <activity
+27-->C:\Users\dien_\Documents\AndroidStudio\academies_14\Submission4\app\src\main\AndroidManifest.xml:19:9-25:20
+28            android:name="com.dicoding.intifada.submission4.activity.DetailActivity"
+28-->C:\Users\dien_\Documents\AndroidStudio\academies_14\Submission4\app\src\main\AndroidManifest.xml:20:13-52
+29            android:parentActivityName="com.dicoding.intifada.submission4.activity.MainActivity" >
+29-->C:\Users\dien_\Documents\AndroidStudio\academies_14\Submission4\app\src\main\AndroidManifest.xml:21:13-64
+30            <meta-data
+30-->C:\Users\dien_\Documents\AndroidStudio\academies_14\Submission4\app\src\main\AndroidManifest.xml:22:13-24:57
+31                android:name="android.support.PARENT_ACTIVITY"
+31-->C:\Users\dien_\Documents\AndroidStudio\academies_14\Submission4\app\src\main\AndroidManifest.xml:23:17-63
+32                android:value=".activity.MainActivity" />
+32-->C:\Users\dien_\Documents\AndroidStudio\academies_14\Submission4\app\src\main\AndroidManifest.xml:24:17-55
+33        </activity>
+34        <activity
+34-->C:\Users\dien_\Documents\AndroidStudio\academies_14\Submission4\app\src\main\AndroidManifest.xml:27:9-36:20
+35            android:name="com.dicoding.intifada.submission4.activity.MainActivity"
+35-->C:\Users\dien_\Documents\AndroidStudio\academies_14\Submission4\app\src\main\AndroidManifest.xml:28:13-50
+36            android:label="@string/app_name"
+36-->C:\Users\dien_\Documents\AndroidStudio\academies_14\Submission4\app\src\main\AndroidManifest.xml:29:13-45
+37            android:theme="@style/AppTheme.NoActionBar" >
+37-->C:\Users\dien_\Documents\AndroidStudio\academies_14\Submission4\app\src\main\AndroidManifest.xml:30:13-56
+38            <intent-filter>
+38-->C:\Users\dien_\Documents\AndroidStudio\academies_14\Submission4\app\src\main\AndroidManifest.xml:31:13-35:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->C:\Users\dien_\Documents\AndroidStudio\academies_14\Submission4\app\src\main\AndroidManifest.xml:32:17-69
+39-->C:\Users\dien_\Documents\AndroidStudio\academies_14\Submission4\app\src\main\AndroidManifest.xml:32:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->C:\Users\dien_\Documents\AndroidStudio\academies_14\Submission4\app\src\main\AndroidManifest.xml:34:17-77
+41-->C:\Users\dien_\Documents\AndroidStudio\academies_14\Submission4\app\src\main\AndroidManifest.xml:34:27-74
+42            </intent-filter>
+43        </activity>
+44    </application>
+45
+46</manifest>
